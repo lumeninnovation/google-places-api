@@ -1,5 +1,5 @@
 {
-    "name": "skagarwal/google-places-api",
+    "name": "lumeninnovation/google-places-api",
     "description": "Google Places Api",
     "type": "library",
     "keywords": [
@@ -15,6 +15,10 @@
         {
             "name": "Sachin Agarwal",
             "email": "sachinkumaragarwal05@gmail.com"
+        },
+        {
+            "name": "Chris Carver",
+            "email": "chris@lumeninnovation.com"
         }
     ],
     "require": {
@@ -33,16 +37,16 @@
         ],
 
         "psr-4": {
-            "SKAgarwal\\GoogleApi\\": "src/"
+            "Lumen\\GoogleApi\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "SKAgarwal\\GoogleApi\\ServiceProvider"
+                "Lumen\\GoogleApi\\ServiceProvider"
             ],
             "aliases": {
-                "GooglePlaces": "SKAgarwal\\GoogleApi\\Facade"
+                "GooglePlaces": "Lumen\\GoogleApi\\Facade"
             }
         }
     }
